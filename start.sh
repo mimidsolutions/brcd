@@ -1,5 +1,4 @@
 #!/bin/bash
-http://download-ib01.fedoraproject.org/pub/epel/7/x86_64/
-rpm -Uvh epel-release*rpm
-yum install zbar
+sudo amazon-linux-extras install epel -y
+sudo yum install -y zbar
 pip install -r requirements.txt
