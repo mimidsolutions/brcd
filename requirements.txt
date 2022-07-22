@@ -7,3 +7,4 @@ imutils==0.5.4
 opencv-python>=4.6.0
 scikit-image==0.19.3
 click~=7.1
+firebase_admin>=5.2.0
