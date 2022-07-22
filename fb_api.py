@@ -44,6 +44,7 @@ def hello():
         ref_post.push({'imei':imeis,'subject':subject,'email':email})
     
         ref.child(key).delete()
+    return "done"
 
 
 if __name__ == '__main__':
